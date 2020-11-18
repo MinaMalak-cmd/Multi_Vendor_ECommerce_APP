@@ -1,0 +1,71 @@
+.row{
+    margin-right: 0;
+}
+.sort-by-elem{
+    margin-top: 10px;
+}
+
+/* navbar */
+
+nav{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-top: 20px;
+}
+
+select:focus{
+    background-color: #333333;
+    color: #fff;
+}
+
+/* sidebar */
+
+.sidebar{
+    height: 600px;
+}
+
+.search-form{
+    margin: 30px 10px;
+}
+
+.search-form input{
+    background-color: #333333;
+}
+
+
+.input-group-text{
+    background-color: #000;
+    height: 38px;
+    color: #fff;
+}
+
+.search-form input:focus{
+    background-color: #000;
+}
+
+
+.list-group-item:hover{
+    color: #b0b435;
+}
+
+.ui-widget-header {
+    background-color: #b0b435;
+}
+
+/* categories */
+
+.categories *{
+    border: 0;
+    color: #000;
+}
+
+
+.categories .sublist a{
+    margin-left: 20px;
+}
+
+
+.price-filter-btn{
+    background-color:#b0b435;
+    color: #fff;
+}

@@ -1,0 +1,139 @@
+body {
+    /*    font-family: cursive,sans-serif;*/
+    color: #666666;
+}
+
+a {
+    text-decoration: none !important
+}
+
+/*start title box*/
+.title-box::before {
+    background: rgba(0, 0, 0, 0.6);
+    content: "";
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.title-box {
+    background: url(/images/about/download.jpg) center;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+    padding: 70px 0px;
+    position: relative;
+}
+
+.title-box h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    float: left;
+    padding-top: 8px;
+}
+
+.title-box .breadcrumb {
+    background: #b0b435;
+    margin: 0px;
+    border-radius: 0px;
+    float: right;
+    color: #000
+}
+
+.title-box .breadcrumb .breadcrumb-item {
+    display: inline-block;
+    color: #000;
+}
+
+.title-box .breadcrumb-item::before {
+    color: #000000;
+}
+
+.title-box .breadcrumb .breadcrumb-item a {
+    color: #fff;
+    text-decoration: none
+}
+
+/*end title box*/
+
+a{
+    text-decoration: none !important
+}
+.table th{
+    background-color: #b0b435;
+    color: #ffffff;
+    margin: 0
+}
+.table td,th{
+    text-align: center
+}
+.table td img{
+    width: 120px;
+    height: 100px
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto
+}
+.table td{
+     vertical-align: middle;
+     font-size: 16px;
+}
+.table td a.add-to-card {
+    padding: 10px 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #b0b435;
+    border: none
+}
+.remove-pr i{
+    color: #000
+}
+.remove-pr i:hover{
+    color: #a00
+}
+
+@media(max-width:992px){
+    .table td img{
+    width: 80px;
+    height: 70px
+}
+    .table th{
+        font-size: 15px
+    }
+    .table td{
+     vertical-align: middle;
+     font-size: 13px;
+    }
+    .table td a.add-to-card{
+        padding: 7px;
+        font-size: 12px
+    }
+}
+
+@media(max-width:768px){
+    .table td a.add-to-card {
+        padding: 8px 16px;
+        font-weight: 700;
+        color: #ffffff;
+        background-color: #b0b435;
+        border: none;
+        text-align: center;
+        display: inline-block;
+       
+    }
+    .table td  {
+        font-size: 14px;
+    }
+    
+}
+
+
+
+
+

@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/product.css">
+
+
+</head>
+
+<body>
+
+    <div style="height: 60px"></div>
+
+<!-- nav bar start -->
+<div class="container-fluid">
+       <div class="row">
+           <div class="col">
+               <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light mx-n3">
+                   <div class="navbar-header">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-right:30px;">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand ml-5 h-100" href="#!"><img src="images/Brand.png" class="h-100"></a>                       
+                   </div>
+                  
+                   
+                   <div class="collapse navbar-collapse flex justify-content-end" id="navbarSupportedContent">
+                       <ul class="navbar-nav mx-5 ">
+                           <li class="nav-item active">
+                               <a class="nav-link align-content-end first" href="page.html">Home <span class="sr-only">(current)</span></a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="about.html">About</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="wishlist.html">WishList</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="cart.html">Cart</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="cantact.html">Contact</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link last" href="details.html">Details</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link last" href="slidebar.html">Slidebar</a>
+                           </li>
+                           <li class="nav-item cart lastone">
+                            
+                            <a class="nav-link last d-inline" href="#">
+                                <i class="fas fa-cart-plus"></i>
+                                My Cart</a>
+                            <!-- <span>3</span> -->
+                           </li>
+                           
+                       </ul>
+                   </div>
+                   <div class="attr-nav responsive-item">
+                    <ul class="navbar-nav mx-5">
+                        <li class="nav-item cart">                           
+                            <a class="nav-link last d-inline" href="#">
+                                <i class="fas fa-cart-plus"></i>
+                                My Cart</a>                      
+                        </li>
+                    </ul>                    
+                   </div>
+               </nav>
+           </div>
+       </div>
+   </div>
+<!--  End NavBar-->
+
+    <!-- Start Slider -->
+    <div class="">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/slider1.jpg"   alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 >Section 1</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, aliquam.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/slider2.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block" >
+                        <button type="button" class="btn btn-success">Success</button>
+                        <h5>Section2</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, fugiat.</p>                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/slider3.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 >Section3</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, nostrum?</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon prevI" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon nextI" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- End Slider -->
+
+    <!-- Start Categories  -->
+    <div class="categories-shop">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="shop-cat-box">
+                        <img class="img-fluid" src="images/instagram-img-05.jpg" alt="" />
+                        <a class="btn hvr-hover" href="#">Lorem ipsum dolor</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="shop-cat-box">
+                        <img class="img-fluid" src="images/instagram-img-06.jpg" alt="" />
+                        <a class="btn hvr-hover" href="#">Lorem ipsum dolor</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="shop-cat-box">
+                        <img class="img-fluid" src="images/instagram-img-07.jpg" alt="" />
+                        <a class="btn hvr-hover" href="#">Lorem ipsum dolor</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Categories -->
+
+    <!-- product card view -->
+
+    <!-- <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-center">
+                    <h1>
+                        our product
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi necessitatibus nulla magnam
+                        alias tempora, cumque atque consequuntur odit rerum dolores ex ad suscipit debitis impedit?
+                        Nihil recusandae alias veritatis quam.
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-center menu">
+                    <div class="btn-group  btn-group-filter">
+                        <button class="active">all</button>
+                        <button class="top-featured">top featured</button>
+                        <button class="">best seller</button>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row list" style="position: relative;">
+            <div class="col-sm-12 col-lg-3 col-md-6 ">
+                <div class="single-product">
+                    <div class="box-img-hover">
+                        <div class="type">
+                            <p class="sale">sale</p>
+                        </div>
+                        <img src="images/img-pro-01.jpg" class="img-fluid" alt="image">
+                        <div class="mask-icon">
+                            <ul>
+                                <li>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="View">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a class="cart" href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="why-text">
+                        <h4>Lorem ipsum dolor sit amet</h4>
+                        <h5> $7.79</h5>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-12 col-lg-3 col-md-6 ">
+                <div class="single-product">
+                    <div class="box-img-hover">
+                        <div class="type">
+                            <p class="sale">sale</p>
+                        </div>
+                        <img src="images/img-pro-01.jpg" class="img-fluid" alt="image">
+                        <div class="mask-icon">
+                            <ul>
+                                <li>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="View">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a class="cart" href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="why-text">
+                        <h4>Lorem ipsum dolor sit amet</h4>
+                        <h5> $7.79</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-3 col-md-6 ">
+                <div class="single-product">
+                    <div class="box-img-hover">
+                        <div class="type">
+                            <p class="sale">sale</p>
+                        </div>
+                        <img src="images/img-pro-01.jpg" class="img-fluid" alt="image">
+                        <div class="mask-icon">
+                            <ul>
+                                <li>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="View">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a class="cart" href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="why-text">
+                        <h4>Lorem ipsum dolor sit amet</h4>
+                        <h5> $7.79</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-3 col-md-6 ">
+                <div class="single-product">
+                    <div class="box-img-hover">
+                        <div class="type">
+                            <p class="sale">sale</p>
+                        </div>
+                        <img src="images/img-pro-01.jpg" class="img-fluid" alt="image">
+                        <div class="mask-icon">
+                            <ul>
+                                <li>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="View">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a class="cart" href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="why-text">
+                        <h4>Lorem ipsum dolor sit amet</h4>
+                        <h5> $7.79</h5>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div> -->
+
+<!-- product card view -->
+
+<!-- test -->
+
+ <!-- Start Products  -->
+ <div class="products-box">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="title-all text-center">
+                    <h1>products & Freshshop</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="special-menu text-center">
+                    <div class="button-group filter-button-group">
+                        <button class="active" data-filter="*">All</button>
+                        <button data-filter=".top-featured">Top featured</button>
+                        <button data-filter=".best-seller">Best seller</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row special-list">
+            <div class="col-lg-3 col-md-6 special-grid best-seller">
+                <div class="products-single fix">
+                    <div class="box-img-hover">
+                        <div class="type-lb">
+                            <p class="sale">Sale</p>
+                        </div>
+                        <img src="images/instagram-img-01.jpg" class="img-fluid" alt="Image">
+                        <div class="mask-icon">
+                            <ul>
+                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
+                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                            </ul>
+                            <a class="cart" href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="why-text">
+                        <h4>Lorem ipsum dolor sit amet</h4>
+                        <h5> $7.79</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 special-grid top-featured">
+                <div class="products-single fix">
+                    <div class="box-img-hover">
+                        <div class="type-lb">
+                            <p class="new">New</p>
+                        </div>
+                        <img src="images/instagram-img-02.jpg" class="img-fluid" alt="Image">
+                        <div class="mask-icon">
+                            <ul>
+                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
+                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                            </ul>
+                            <a class="cart" href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="why-text">
+                        <h4>Lorem ipsum dolor sit amet</h4>
+                        <h5> $9.79</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 special-grid top-featured">
+                <div class="products-single fix">
+                    <div class="box-img-hover">
+                        <div class="type-lb">
+                            <p class="sale">Sale</p>
+                        </div>
+                        <img src="images/instagram-img-03.jpg" class="img-fluid" alt="Image">
+                        <div class="mask-icon">
+                            <ul>
+                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
+                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                            </ul>
+                            <a class="cart" href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="why-text">
+                        <h4>Lorem ipsum dolor sit amet</h4>
+                        <h5> $10.79</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 special-grid best-seller">
+                <div class="products-single fix">
+                    <div class="box-img-hover">
+                        <div class="type-lb">
+                            <p class="sale">Sale</p>
+                        </div>
+                        <img src="images/instagram-img-04.jpg" class="img-fluid" alt="Image">
+                        <div class="mask-icon">
+                            <ul>
+                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
+                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
+                            </ul>
+                            <a class="cart" href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="why-text">
+                        <h4>Lorem ipsum dolor sit amet</h4>
+                        <h5> $15.79</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Products  -->
+
+
+<!-- test -->
+
+    <div class="instagram-box">
+        <div class="main-instagram owl-carousel owl-theme">
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-01.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/img-pro-01.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-03.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-04.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-05.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-06.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-07.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-08.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-09.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="ins-inner-box">
+                    <img src="images/instagram-img-05.jpg" alt="" />
+                    <div class="hov-in">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-top-box">
+                            <h3>Business Time</h3>
+                            <ul class="list-time">
+                                <li>Monday - Friday: 08.00am to 05.00pm</li>
+                                <li>Saturday: 10.00am to 08.00pm</li>
+                                <li>Sunday: <span>Closed</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-top-box">
+                            <h3>Newsletter</h3>
+                            <form class="newsletter-box">
+                                <div class="form-group">
+                                    <input class="" type="email" name="Email" placeholder="Email Address*" />
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <button class="btn hvr-hover" type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-top-box">
+                            <h3>Social Media</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <!-- <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li> -->
+                                <li><a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
+                                <!-- <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li> -->
+                                <!-- <li><a href="#"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a></li> -->
+                                <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-widget">
+                            <h4>About Freshshop</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link">
+                            <h4>Information</h4>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Customer Service</a></li>
+                                <li><a href="#">Our Sitemap</a></li>
+                                <li><a href="#">Terms &amp; Conditions</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Delivery Information</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link-contact">
+                            <h4>Contact Us</h4>
+                            <ul>
+                                <li>
+                                    <p><i class="fas fa-map-marker-alt"></i>Address: shbien el kom - monufia -egypet<br>
+                                        zip-code 10568 </p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+1-888705770">+20 -
+                                            01555545005</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-envelope"></i>Email: <a
+                                            href="dotNetFullStacko@gmail.com">dotNetFullStack@gmail.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="images-loded.min.js"></script>  
+    <script src="isotope.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
